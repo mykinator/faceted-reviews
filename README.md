@@ -14,3 +14,13 @@ def extractFacets (reviewText):
 ```
 
 Please spend no more than 1-2 hours on this task. If you wish, you may leverage an external knowledge-base (such as WordNet or word embeddings), but please do not use a machine learning framework or toolkit for this task. We are mainly evaluating problem solving and coding.
+
+## FAQ
+
+#### Step 3 sounds like information extraction over unstructured text, which cannot be implemented in a couple of hours.
+
+We deliberately chose a complex task to evaluate how you problem solve and prioritize essential functionality, given the limited time scope and constrained access to external resources.
+
+#### What makes a "good" facet?
+
+Again, this is intentionally open-ended. What, as a consumer, makes a good facet to you? Price seems to make sense. What other attributes are reasonable candidates for refining the dataset?
