@@ -27,4 +27,4 @@ Again, this is intentionally open-ended. What, as a consumer, makes a good facet
 
 #### How is the solution evaluated?
 
-We are looking for a "reasonable" solution, given the time constraint: Are the facets appropriate for the dataset? Is the approach reasonable? Does the code use sensible data structures and control flow?
+We are looking for a "reasonable" solution: Are the facets appropriate for the dataset? Does the approach perform reasonably well given the constraints? Does the code use sensible data structures and control flow?
