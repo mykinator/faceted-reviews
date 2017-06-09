@@ -24,3 +24,7 @@ We deliberately chose a complex task to evaluate how you problem solve and prior
 #### What makes a "good" facet?
 
 Again, this is intentionally open-ended. What, as a consumer, makes a good facet to you? Price seems to make sense. What other attributes are reasonable candidates for refining the dataset?
+
+#### How is the solution evaluated?
+
+We are looking for a "reasonable" solution, given the time constraint: Are the facets appropriate for the dataset? Is the approach reasonable? Does the code use sensible data structures and control flow?
