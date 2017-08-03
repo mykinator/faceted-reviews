@@ -1,8 +1,8 @@
 # Coding Task
 
-1. Download the Amazon customer review dataset for Musical Instruments here (2.5 MB): http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Musical_Instruments_5.json.gz
-2. Determine a set of suitable facets for this dataset. A facet is an attribute like "price", "material", "battery life", etc. You may do this however you like, with code or just by manually scanning. You need not submit this code. 
-3. Submit a function that takes a single customer review as input and outputs a JSON consisting of the facets extracted from the review and a snippet attached to each facet.
+1. Spend ~5 minutes browsing customer reviews of Musical Instruments on Amazon (https://www.amazon.com/b?&node=11091801).
+2. Brainstorm an approach that identifies, given a customer review, whether the review mentions one or more of the following product facets: **price**, **durability**, and/or **sound quality**.
+3. Submit a function that takes an unformatted customer review as input and outputs a JSON consisting of the facets extracted from the review and a snippet pertinent to each facet.
 
 ## Example
 
@@ -13,7 +13,7 @@ def extractFacets (reviewText):
   return { "price" : "this watch is way overpriced.", "durability": "not very well built." }
 ```
 
-Please spend no more than 1-2 hours on this task. If you wish, you may leverage an external knowledge-base (such as WordNet or word embeddings), but please do not use a machine learning framework or toolkit for this task. We are mainly evaluating problem solving and coding.
+If you wish, you may leverage an external knowledge-base (such as WordNet or word embeddings), but please **do not** use a machine learning framework or toolkit for this task. We are mainly evaluating problem solving and coding.
 
 ## FAQ
 
@@ -21,10 +21,10 @@ Please spend no more than 1-2 hours on this task. If you wish, you may leverage 
 
 We deliberately chose a complex task to evaluate how you problem solve and prioritize essential functionality, given the limited time scope and constrained access to external resources.
 
-#### What makes a "good" facet?
-
-Again, this is intentionally open-ended. What, as a consumer, makes a good facet to you? Price seems to make sense. What other attributes are reasonable candidates for refining the dataset?
-
 #### How is the solution evaluated?
 
-We are looking for a "reasonable" solution: Are the facets appropriate for the dataset? Does the approach perform reasonably well given the constraints? Does the code use sensible data structures and control flow?
+We are looking for a "reasonable" solution: Does the code use sensible data structures and control flow? Does the approach perform reasonably well given the constraints? How does the solution ensure accuracy when extracting facets and snippets?
+
+#### Does the code have to build?
+
+The code does not have to build, but it should be written in a real programming language (not pseudocode). This ensures that we are able to follow along without guesswork.
