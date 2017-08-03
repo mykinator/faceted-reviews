@@ -2,7 +2,7 @@
 
 1. Spend ~5 minutes browsing customer reviews of Musical Instruments on Amazon (https://www.amazon.com/b?&node=11091801).
 2. Brainstorm an approach that identifies, given a customer review, whether the review mentions one or more of the following product facets: **price**, **durability**, and/or **sound quality**.
-3. Submit a function that takes an unformatted customer review as input and outputs a JSON consisting of the facets extracted from the review and a snippet pertinent to each facet.
+3. Submit a function that takes the raw text of a customer review as input and outputs a JSON consisting of the facets extracted from the review and a snippet pertinent to each facet.
 
 ## Example
 
