@@ -19,7 +19,7 @@ If you wish, you may leverage an external knowledge-base (such as WordNet or wor
 
 At the minimum, we are looking for a solution that works. The solution produces "reasonable" facets and snippets. Is the code well written? Does it use sensible data structures and control flow?
 
-Beyond that, of highest importance is performance. The code should be optimized for runtime efficiency at the expense of memory (but not at the expense of readability).
+Beyond that, of highest importance is performance. The code should be optimized for runtime speed at the expense of memory (but not at the expense of readability).
 
 Performance is followed closely by accuracy. Does the code produce facets with a high rate of true positives? Are the snippets cohesive and relevant to the facet?
 
