@@ -15,15 +15,19 @@ def extractFacets (reviewText):
 
 If you wish, you may leverage an external knowledge-base (such as WordNet or word embeddings), but please **do not** use a machine learning framework or toolkit for this task. We are mainly evaluating problem solving and coding.
 
+## Evaluation
+
+At the minimum, we are looking for a solution that works. The solution produces "reasonable" facets and snippets. Is the code well written? Does it use sensible data structures and control flow?
+
+Beyond that, of highest importance is performance. The code should be optimized for runtime efficiency at the expense of memory (but not at the expense of readability).
+
+Performance is followed closely by accuracy. Does the code produce facets with a high rate of true positives? Are the snippets cohesive and relevant to the facet?
+
 ## FAQ
 
 #### Step 3 sounds like information extraction over unstructured text, which cannot be implemented in a couple of hours.
 
 We deliberately chose a complex task to evaluate how you problem solve and prioritize essential functionality, given the limited time scope and constrained access to external resources.
-
-#### How is the solution evaluated?
-
-We are looking for a "reasonable" solution: Does the code use sensible data structures and control flow? Does the approach perform reasonably well given the constraints? How does the solution ensure accuracy when extracting facets and snippets?
 
 #### Does the code have to build?
 
